@@ -24,3 +24,9 @@ print(greet)
 
 greet_two = "Hello, pythonistas!"; print(greet_two)
 
+# Comments - In the python language or program, anything after a hashtag is completely ignored, e.g;
+
+# this is a commented line.
+4 + 4 # this is an inline comment
+
+# Programmers use comments to make code inactive and also pass messages in their programs to other developers who might be reading their code.  

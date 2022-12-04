@@ -32,3 +32,27 @@ greet_two = "Hello, pythonistas!"; print(greet_two)
 # Programmers use comments to make code inactive and also pass messages in their programs to other developers who might be reading their code.  
 
 # Indentation - Every line of code indented belongs only to the block of code that it is indented within, it is important to know that indentation is very important in python.
+
+# Data Types - Python has several built in types ranging from strings, numbers, booleans etc. You can check for the type of a data using the type() function. e.g;
+
+typeCheck = "What data type is this?"
+print(type(typeCheck))
+print(isinstance(typeCheck, str))
+
+# in the example above, we are checking if the type of the variable and in the other print statement we are coomparing if the variable type is a string using the isinstance() function.
+
+# Python automatically knows the type of data being stored, but you can also create a variable of a specific type using the class constructor by passing the value or a variable name. it can also be used to convert data types e.g;
+
+ageCheck = float("32")
+print(isinstance(ageCheck, float)) 
+print(ageCheck) 
+
+# below are some data types and how to check them
+
+# complex for complex numbers
+# bool for booleans
+# list for list
+# tuple for tuples
+# range for ranges
+# dict for dictionaries
+# set for sets

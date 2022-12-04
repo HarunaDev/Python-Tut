@@ -56,3 +56,97 @@ print(ageCheck)
 # range for ranges
 # dict for dictionaries
 # set for sets
+
+# Operators - (Assignment, Arithmetic, Comparison, Boolean/Logical, Bitwise, is & in)
+
+# Assignment Operator - The assignment operator allows us to assign a value to a variable or a vaariable value to another variable eg;
+
+number_one = 1
+number_two = number_one + 1
+
+# Arithmetic Operator - They allow us to carry out mathematics expressions in our program eg;
+
+1 + 1 #addition
+2 - 1 #subtraction
+2 * 2 #multiplication
+4 / 2 #division
+4 % 3 #modulus (remainder)
+4 ** 2 #to the power
+5 // 2 #floor division
+
+# we can use the addition operator to concatenate string values. e.g;
+
+greeting = "Hello," + " " + "Alvin"
+print(greeting)
+
+# we can also combine arithmetic operators with the assignment operators. eg;
+
+bamodu_age = 13
+bamodu_age += 12 # bamodu_age = bamodu_age + 12 
+print(bamodu_age)
+
+# Comparison Operators - We use the comparison operator to compare between different data. e.g;
+
+a = 2
+b = 1
+
+a == b #False
+a != b #True
+a > b #True
+a <= b #False
+
+# Boolean Operators - Boolean operators are also logical operators, to check if a statement is truthy or falsey. there are only a few of them which are shown in the examples below;
+
+condition1 = True
+condition2 = False
+
+not condition1 #False - checking if it is "not" true
+condition1 and condition2 #False - checking if the first "and" second are true, they both have to be true.
+condition1 or condition2 #True - checking if either the first "or" the second are true
+
+# or - or operator usually returns the expression of the first operand that is a truthy value, e.g;
+
+print(0 or 1) #1
+print(False or "hey") #"hey"
+print("hi" or "hey") #"hi"
+print([] or False) #False
+print(False or []) #[]
+
+# and - and operator only evaluates the second arguement if the first one is a truthy value. e.g;
+
+print(0 and 1) #0
+print(1 and 0) #0
+print(False and "hey") #False
+print("hi" and "hey") #"hey"
+print([] and False) #[]
+print(False and []) #False
+
+# Bitwise Operators - they are rarely used but it's good to know what they represent just in case you run into a situation to use them. eg;
+
+# & performs binary AND
+# | performs binary OR
+# ^ performs a binary XOR operation
+# ~ performs a binary NOT operation
+# << shift left operation
+# >> shift right operation
+
+# is & in -
+
+# is - also called the identity operator, it's used to compare two objects and return true if both are the same object
+
+# in - also called the membership operator, it's used to tell if a value is contained in a list or a sequence
+
+# Ternary Operator - It helps you to quickly define a conditional, below is an example of a conditional using if/else statement and a faster way using the ternary operator.
+
+# using if/else
+def is_adult(age):
+    if age > 18:
+        return True
+    else:
+        return False
+print(is_adult(20))
+
+# using ternary operator
+def is_adult2(age):
+    return True if age > 18 else False
+print(is_adult2(20))

@@ -30,3 +30,5 @@ greet_two = "Hello, pythonistas!"; print(greet_two)
 4 + 4 # this is an inline comment
 
 # Programmers use comments to make code inactive and also pass messages in their programs to other developers who might be reading their code.  
+
+# Indentation - Every line of code indented belongs only to the block of code that it is indented within, it is important to know that indentation is very important in python.

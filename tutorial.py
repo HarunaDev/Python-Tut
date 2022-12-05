@@ -150,3 +150,18 @@ print(is_adult(20))
 def is_adult2(age):
     return True if age > 18 else False
 print(is_adult2(20))
+
+# Strings - A string is a set of characters enclosed in double or single quotes, as long as the quotes are the same on both sides. e.g;
+
+string_one = "double quote string"
+string_two = "single quote string"
+string_example = "please always use " + string_one + "s when coding."
+string_example += " ;)"
+print(string_example)
+
+# It is good to know that you can make strings multi-line when you enclose them in three quotes on each side e.g;
+
+print("""this 
+        is a multi-line
+        string """)
+

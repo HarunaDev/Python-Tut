@@ -172,11 +172,23 @@ print("ALVIN".lower()) # to make all characters lowercase
 print("ALVIN hARUNA".title()) # to make the first letter of a word uppercase
 print("ALVIN".islower()) # to check if the string is in lowercase, it'll return either True or False
 
+
 # It is important to know that string methods only returns a new string and doesn't mutate the original string. e.g;
 
 string_method = "check this out"
 print(string_method.title())
 print(string_method)
 
-print(len(string_method)) # check for the length of characters in the string
+print(len(string_method)) # you can use some global functions on a string, len() can be used to check for the length of characters in the string
 print( "eck" in string_method) # using the in operator to check if a string contains a sub string
+
+# Strings - Escaping Characters -- You can also escape certain character's in python using the back-slash \ before the cheracter you want to escape, what it means is that when you escape a character, it won't function as it normally would in python, but rather it becomes part of a string. e.g;
+
+escapeChar = 'Let\'s eat, Dad'
+
+escapeChar2 = "examples of quotes you can use in python include '', \"\", and \"\"\" \"\"\" "
+print(escapeChar2)
+
+# You can also use the escape character for special formating, e.g;
+
+print("let's make a new line \nhere and \nhere")

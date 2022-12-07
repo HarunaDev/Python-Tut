@@ -192,3 +192,13 @@ print(escapeChar2)
 # You can also use the escape character for special formating, e.g;
 
 print("let's make a new line \nhere and \nhere")
+
+# String Characters & Slicing - You can also get a specific charcater in a string using square brackets e.g;
+
+stringChar = "Hello"
+print(stringChar[2]) # you can also use a  negative number to start counting at the end
+
+# Slicing - This allows you to specify a range when trying to get a specific character. e.g;
+
+stringChar += ", world"
+print(stringChar[2:9])

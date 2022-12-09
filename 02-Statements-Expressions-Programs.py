@@ -13,7 +13,7 @@
 
 # greet_two = "Hello, pythonistas!"; print(greet_two)
 
-# To pass this challenge, you are required to write a program that declares two variables with string values & print the two variables, you are required to put them on the same line.
+# To pass the test on this challenge, you are required to write a program that declares two variables (string_one & string_two) with string values ("Bannana", "Apple") & print the two variables, you are required to put them on the same line.
 
 # Your code goes below here
 

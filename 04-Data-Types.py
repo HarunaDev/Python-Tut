@@ -22,7 +22,7 @@
 # dict for dictionaries
 # set for sets
 
-# To pass this challenge, you are required to declare 2 variables, the first should be a string and the second should be a float, inside print statements, check for the data type of those variables
+# To pass the test on this challenge, you are required to declare 2 variables, the first should be a string and the second should be a float, inside print statements, check for the data type of those variables
 
 # Your code goes below here
 

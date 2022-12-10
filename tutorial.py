@@ -31,7 +31,14 @@ greet_two = "Hello, pythonistas!"; print(greet_two)
 
 # Programmers use comments to make code inactive and also pass messages in their programs to other developers who might be reading their code.  
 
-# Indentation - Every line of code indented belongs only to the block of code that it is indented within, it is important to know that indentation is very important in python.
+# Indentation - Every line of code indented belongs only to the block of code that it is indented within, it is good to know that indentation is very important in python.
+# The colon character (:) is used to specify Indentation.
+
+option = input()
+if option == "Lead-Forte":
+    print("I go to school here!")
+else:
+    print("Sorry, I didn't get it")
 
 # Data Types - Python has several built in types ranging from strings, numbers, booleans etc. You can check for the type of a data using the type() function. e.g;
 

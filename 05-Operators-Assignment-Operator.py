@@ -5,7 +5,7 @@
 # number_one = 1
 # number_two = number_one + 1
 
-# To pass this challenge, you are required to declare a variable called (greet_one) and set it's value to the string "Hello,", and then declare another variable called (greet_two) and set it's value to be the addition of the first variable and the string " world!"
+# To pass the test on this challenge, you are required to declare a variable called (greet_one) and assign it to the string "Hello,", and then declare another variable called (greet_two) and assign it's value to be the addition of the first variable and the string " world!"
 
 # Your code goes below here
 

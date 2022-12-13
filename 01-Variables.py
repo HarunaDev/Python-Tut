@@ -11,7 +11,7 @@
 
 # You can't use a keyword when naming variables, keywords are words that have specific meanings in python e.g are for, if, while, import, and, True, False etc.
 
-# To pass the test on this challenge, declare the following variables - name and set it's value to your name, country and set it's value to your country. Then print out the text "(Your name) is from (Your country)"
+# To pass the test on this challenge, declare the following variables - (name) and set it's value to your "name", (country) and set it's value to your "country". Then print out the text "(Your name) is from (Your country)"
 
 
 # Your code goes below here

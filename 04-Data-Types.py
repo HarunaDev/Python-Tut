@@ -1,6 +1,6 @@
 # Data Types - Python has several built in types ranging from strings, numbers, booleans etc. You can check for the type of a data using the type() function. e.g;
 
-# typeCheck = "What data type is this?"
+typeCheck = "What data type is this?"
 # print(type(typeCheck))
 # print(isinstance(typeCheck, str))
 
@@ -8,7 +8,7 @@
 
 # Python automatically knows the type of data being stored, but you can also create a variable of a specific type using the class constructor, and you do this by passing the value or a variable name inside brackets. it can also be used to convert data types e.g;
 
-# ageCheck = float("32")
+ageCheck = float("32")
 # print(isinstance(ageCheck, float)) 
 # print(ageCheck) 
 

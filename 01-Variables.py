@@ -1,9 +1,9 @@
 # Variables - We can create a new variable by assigning a value to a label e.g are as follows;
 
-# name = "Alvin"
-# age = 32
-# likes_food = True
-# eatsRice = False 
+name = "Alvin"
+age = 32
+likes_food = True
+eatsRice = False 
 
 # print(name, "is", age, "years old")
 

@@ -22,5 +22,7 @@ bamodu_age += 12 # bamodu_age = bamodu_age + 12
 # To pass the test on this challenge, you are required to declare a variable called (age) and assign it's value to the integer 18, then using the arithmetiic & assignment operator combined, add 20 to the age variable.
 
 # Your code goes below this line
-
+age = 18
+age += 20
+print(age)
 # Your code goes above this line

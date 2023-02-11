@@ -8,6 +8,8 @@ number_two = number_one + 1
 
 # To pass the test on this challenge, you are required to declare a variable called (greet_one) and assign it to the string "Hello,", and then declare another variable called (greet_two) and assign it's value to be the addition of the first variable and the string " world!"
 
-# Your code goes below here
-
-# Your code goes above here
+# Your code goes below this line
+greet_one = "Hello,"
+greet_two = greet_one + " world!"
+print(greet_two)
+# Your code goes above this line

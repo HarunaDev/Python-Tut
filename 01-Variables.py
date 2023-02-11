@@ -14,6 +14,6 @@ eatsRice = False
 # To pass the test on this challenge, declare the following variables - (name) and set it's value to your "name", (country) and set it's value to your "country". Then print out the text "(Your name) is from (Your country)"
 
 
-# Your code goes below here
+# Your code goes below this line
 
-# Your code goes above here
+# Your code goes above this line

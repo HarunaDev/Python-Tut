@@ -1,6 +1,6 @@
 # Data Types - Python has several built in types ranging from strings, numbers, booleans etc. You can check for the type of a data using the type() function. e.g;
 
-typeCheck = "True"
+typeCheck = "What data type is this?"
 # print(type("typeCheck"))
 # print(isinstance(typecheck, float))
 
@@ -8,10 +8,10 @@ typeCheck = "True"
 
 # Python automatically knows the type of data being stored, but you can also create a variable of a specific type using the class constructor, and you do this by passing the value or a variable name inside brackets. it can also be used to convert data types e.g;
 
-ageCheck = bool("")
+ageCheck = str(3)
 # print(isinstance(ageCheck, float))
-print(type(ageCheck)) 
-print(ageCheck) 
+# print(type(ageCheck)) 
+# print(ageCheck) 
 
 # below are some data types and how to check them
 
@@ -26,8 +26,5 @@ print(ageCheck)
 # To pass the test on this challenge, you are required to declare 2 variables (string_one & string_two), with their values as "string" & 2.0, inside print statements, check for the data type of those variables
 
 # Your code goes below this line
-string_one = "string"
-string_two = 2.0
 
-print(float("goat"))
 # Your code goes above this line

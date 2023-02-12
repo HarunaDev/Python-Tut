@@ -2,10 +2,12 @@
 
 done = True
 
+# print(type(done) == True)
+
 if done:
-    print("Yes! I'm done with my Assignment")
+    # print("Yes! I'm done with my Assignment")
 else:
-    print("No, I'm too lazy")  
+    # print("No, I'm too lazy")  
 
 # When evaluating values that are not True or False e.g other data types, it's nice to know that any value that has something is represented as True and a value with is empty will be False e'g;
 

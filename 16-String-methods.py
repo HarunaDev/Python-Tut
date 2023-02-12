@@ -12,6 +12,11 @@ string_method = "check this out"
 #print(string_method.title())
 #print(string_method)
 
+# Using global functions on strings.
+
+#print(len(string_method)) # you can use some global functions on a string, len() can be used to check for the length of characters in the string
+#print( "eck" in string_method) # using the in operator to check if a string contains a sub string
+
 # To pass the test on this challenge, you are required to perform the the 4 string methods in the example above on the string "lEAd fOrtE gAtE"
 
 # Your code goes below here

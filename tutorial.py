@@ -209,3 +209,38 @@ print(stringChar[2]) # you can also use a  negative number to start counting at 
 
 stringChar += ", world"
 print(stringChar[2:9])
+
+# Booleans- (bool type) This data type only returns two values, either True or False e.g;
+
+done = True
+
+# print(type(done) == True)
+
+if done:
+    print("Yes! I'm done with my Assignment")
+else:
+    print("No, I'm too lazy")  
+
+# When evaluating values that are not True or False e.g other data types, it's nice to know that any value that has something is represented as True and a value with is empty will be False e'g;
+
+checkValue = 2 #This will be True because it has a truthy value
+checkValue2 = "" #This will be False because it is represented by a False value of an empty string
+checkValue3 = -1 #This will be true because a negative value represents a truthy value
+
+# Global functions with booleans in python
+
+# any() - This can be used to check if any of the arguements or data passed into it is True, it'll return True if one of the data is a truthy value. e.g;
+
+book_1_read = True
+book_2_read = False
+
+read_any_book = any(book_1_read, book_2_read)
+print(read_any_book)
+
+# all() - This function is similar to the any() function except that it only returns True when all the data passed into it are of a truthy value. e.g;
+
+ingredients_purchased = True
+meal_cooked = False
+
+ready_to_serve = all(ingredients_purchased, meal_cooked)
+print(ready_to_serve)

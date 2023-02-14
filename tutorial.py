@@ -244,3 +244,10 @@ meal_cooked = False
 
 ready_to_serve = all(ingredients_purchased, meal_cooked)
 print(ready_to_serve)
+
+
+# Number Data-Types
+
+# Complex - complex numbers are an extension of the real number system, in which all numbers are expressed as a sum of a real part and an imaginary part.
+
+# Imaginary numbers are real multiples of the imaginary unit, which is square-root of negative 1 which is often written as "i" in maths & "j" in engineering.
